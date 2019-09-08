@@ -8,7 +8,7 @@ This component provides `sqreen\*` functions to users who run php versions witho
 
 ## Installation
 
-```php
+```
 composer require killmails/polyfill-sqreen
 ```
 
