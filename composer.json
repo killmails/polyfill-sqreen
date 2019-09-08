@@ -1,0 +1,30 @@
+{
+    "name": "killmails/polyfill-sqreen",
+    "type": "library",
+    "description": "Killmails polyfill for the Sqreen PHP extension",
+    "keywords": [
+        "compatibility",
+        "polyfill",
+        "portable",
+        "sqreen"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oizys",
+            "email": "oizys@killmails.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "suggest": {
+        "ext-sqreen": "Install the Sqreen PHP agent on your system"
+    },
+    "autoload": {
+        "files": [
+            "sqreen.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
