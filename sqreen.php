@@ -8,7 +8,7 @@ if (!\extension_loaded('sqreen')) {
     /**
      * Login tracking - the SDK method to call on user login activity.
      *
-     * @see https://docs.sqreen.com/php/user-monitoring/#login-tracking
+     * @see https://docs.sqreen.com/php/user-monitoring/#auth_track
      *
      * @param bool  $success
      * @param array $identifiers
@@ -23,7 +23,7 @@ if (!\extension_loaded('sqreen')) {
     /**
      * Signup tracking - the SDK method to call when creating a new user account at signup.
      *
-     * @see https://docs.sqreen.com/php/user-monitoring/#signup-tracking
+     * @see https://docs.sqreen.com/php/user-monitoring/#signup_track
      *
      * @param array $identifiers
      *
@@ -37,7 +37,7 @@ if (!\extension_loaded('sqreen')) {
     /**
      * Session tracking - the SDK method to map a user to the current HTTP request.
      *
-     * @see https://docs.sqreen.com/php/user-monitoring/#session-tracking
+     * @see https://docs.sqreen.com/php/user-monitoring/#identify
      *
      * @param array $identifiers
      * @param array $traits
@@ -52,7 +52,7 @@ if (!\extension_loaded('sqreen')) {
     /**
      * Tracking events - the SDK method to record your custom events.
      *
-     * @see https://docs.sqreen.com/php/custom-events/#tracking-events
+     * @see https://docs.sqreen.com/php/custom-events/#define-your-custom-event
      *
      * @param string $name
      * @param array  $options
